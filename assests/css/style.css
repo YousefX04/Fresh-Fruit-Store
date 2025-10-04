@@ -1,0 +1,313 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+nav{
+    box-shadow: -1px 5px 11px 0px #c4c4c485;
+    position: relative;
+    bottom: 12px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li .nav-link, .logo-link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition-duration: .3s;
+}
+
+nav ul li .nav-link:hover{
+    background-color: antiquewhite;
+    transition-duration: .3s;
+}
+
+.text-logo{
+    position: relative;
+    bottom: 21px;
+    left: 5px;
+    font-weight: 1000;
+}
+
+.home-container{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 250px;
+}
+
+.home-item1{
+    width: 350px;
+}
+
+.home-fbutton{
+    color: white;
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    border: none;  
+}
+
+.home-fbutton:hover{
+    background-color: white;
+    color: black; 
+    border: 1px solid black; 
+}
+
+.home-cbutton{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 50px;  
+    border: none; 
+    margin-left: 30px;
+}
+
+.home-cbutton:hover{
+    background-color: white;
+    color: black; 
+    border: 1px solid black;  
+}
+
+.service-title{
+    text-align: center;
+}
+
+.service-product{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-item{
+    padding-top: 20px;
+    border: 1px solid gray;
+    text-align: center;
+    width: 345px;
+    transition-duration: .3s;
+}
+
+.service-item:hover{
+    border-top: 10px solid orange;
+    transition-duration: .3s;
+    transform: scale(1.1,1.1);
+}
+
+.service-img{
+    width: 50px;
+}
+
+.service-name{
+    color: orange;
+}
+
+.service-readmore{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.service-button{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 50px;  
+    border: none; 
+}
+
+.service-button:hover{
+    background-color: white;
+    color: black; 
+    border: 1px solid black;
+}
+
+.fruit-container{
+    margin-top: 50px;
+}
+
+.fruit-title{
+    text-align: center;
+}
+
+.fruit-button{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 50px;  
+    border: none; 
+}
+
+.fruit-button:hover{
+    background-color: white;
+    color: black; 
+    border: 1px solid black;  
+}
+
+.fruit-item1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.fruit-img1{
+    width: 250px;
+}
+
+.fruit-item2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.fruit-info2{
+    position: relative;
+    right: 50px;
+}
+
+.fruit-img2{
+    width: 100px;
+}
+
+.fruit-item3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.fruit-img3{
+    width: 250px;
+}
+
+.background-fruits{
+    background-image: url(../images/tasty.png);
+    background-size: cover;        /* makes it fill while keeping aspect ratio */
+    background-position: center;   /* centers the image */
+    background-repeat: no-repeat; /* stops tiling */
+    width: 100%;                   /* full width */
+    height: 300px;  
+}
+
+.background-fruits-title{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    position: relative;
+    top: 84px;
+}
+
+.testimonial-container{
+    margin-top: 60px;
+}
+
+.testimonial-title{
+    text-align: center;
+}
+
+.testimonial-img{
+    text-align: center;
+}
+
+.test-img{
+    width: 350px;
+}
+
+.testimonial-comment{
+    text-align: center;
+}
+
+.test-name{
+    font-size: 50px;   
+}
+
+.test-c2{
+    width: 600px;
+    position: relative;
+    left: 435px;
+}
+
+.contact-container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form{
+    position: relative;
+    left: 180px;
+}
+
+.input-form{
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+    width: 600px;    
+}
+
+.m-input{
+    margin-top: 95px;
+}
+
+.c-button{
+    color: white;
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    border: none; 
+    margin-top: 50px; 
+}
+
+.c-button:hover{
+    background-color: white;
+    color: black; 
+    border: 1px solid black; 
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.footer-item{
+    width: 195px;
+}
+
+.sub-input{
+    width: 188px;
+    height: 25px;
+}
+
+.sub-button{
+    color: white;
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    border: none; 
+    margin-top: 50px; 
+    position: relative;
+    bottom: 35px;
+}
+
+.sub-button:hover{
+    background-color: white;
+    color: black; 
+    border: 1px solid black; 
+}
+
+.copyright{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+}
