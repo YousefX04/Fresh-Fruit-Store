@@ -1,4 +1,4 @@
-# 🍊 Fresh Fruit Shop Website
+# 🍊 Fresh Fruit Store Website
 
 A simple **Fresh Fruit Shop website** built using **HTML and CSS**.  
 This project showcases a modern design for a fruit shop landing page with sections for products and contact details.
